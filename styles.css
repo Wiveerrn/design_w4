@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ffff00;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #eee;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumbs {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.breadcrumbs a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.breadcrumbs span {
+    color: #000000;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    margin-top: 20px;
+}
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#search-input {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
